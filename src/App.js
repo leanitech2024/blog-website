@@ -43,6 +43,11 @@ import PortPage32 from './components/PortPage32';
 import PortPage33 from './components/PortPage33';
 import PortPage34 from './components/PortPage34';
 import PortPage35 from './components/PortPage35';
+import PortPage36 from './components/PortPage36';
+import PortPage37 from './components/PortPage37';
+import PortPage38 from './components/PortPage38';
+import PortPage39 from './components/PortPage39';
+import PortPage40 from './components/PortPage40';
 
 function App() {
   return (
@@ -158,6 +163,21 @@ function App() {
           </Route>
           <Route path="/blog-35">
             <PortPage35 />
+          </Route>
+          <Route path="/blog-36">
+            <PortPage36 />
+          </Route>
+          <Route path="/blog-37">
+            <PortPage37 />
+          </Route>
+          <Route path="/blog-38">
+            <PortPage38 />
+          </Route>
+          <Route path="/blog-39">
+            <PortPage39 />
+          </Route>
+          <Route path="/blog-40">
+            <PortPage40 />
           </Route>
         </Switch>
       </Router>

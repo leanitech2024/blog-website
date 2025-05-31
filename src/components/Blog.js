@@ -35,7 +35,223 @@ const Blog = () => {
         style={{ marginBottom: '100px', marginTop: '25px' }}
         id="removeUp"
       >
+        {/* New */}
         <div className="row" style={{ marginTop: '25px' }} id="blkD">
+          <div className="col-sm">
+            <div
+              className="card"
+              style={{
+                border: '2px solid rgb(234, 236, 237)',
+                boxShadow: '2px 2px 4px 4px rgb(234, 236, 237)',
+              }}
+            >
+              <img
+                className="card-img-top"
+                id="imgH"
+                src="/img/avoiding-the-hype.png"
+                height={'110px'}
+                alt="Card image cap"
+              />
+              <div className="card-body">
+                <h4
+                  style={{ color: 'rgb(138, 114, 8)' }}
+                  className="card-title"
+                >
+                  Avoiding the Hype: Why Mutual Funds Beat Impulse Investing
+                </h4>
+                <h3 style={{ color: 'black' }}>
+                  How FOMO Investing Can Derail Your Financial Goals
+                </h3>
+                <p style={{ marginTop: '10px' }} className="card-text">
+                  In the age of social media and instant updates, the fear of
+                  missing out often drives impulsive investment decisions. While
+                  FOMO investing...
+                </p>
+                <a
+                  href="/blog-36"
+                  target="_blank"
+                  id="btnHvn"
+                  style={{ fontSize: '15px', marginTop: '18px' }}
+                  className="btn btn-primary"
+                >
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm" id="carCssPort">
+            <div
+              className="card"
+              style={{
+                border: '2px solid rgb(234, 236, 237)',
+                boxShadow: '2px 2px 4px 4px rgb(234, 236, 237)',
+              }}
+            >
+              <img
+                className="card-img-top"
+                id="imgH"
+                src="/img/chasing-high-return.png"
+                height={'110px'}
+                alt="Card image cap"
+              />
+              <div className="card-body">
+                <h4
+                  style={{ color: 'rgb(138, 114, 8)' }}
+                  className="card-title"
+                >
+                  Why Chasing High Returns Can Hurt Your Investment Journey
+                </h4>
+                <h3 style={{ color: 'black' }}>
+                  The Risks of Prioritizing Short-Term Gains Over Long-Term...
+                </h3>
+                <p style={{ marginTop: '10px' }} className="card-text">
+                  Many investors are driven by the desire to earn the highest
+                  possible returns quickly. While appealing, this approach can
+                  lead to financial...
+                </p>
+                <a
+                  href="/blog-37"
+                  target="_blank"
+                  id="btnHvn"
+                  style={{ fontSize: '15px', marginTop: '13px' }}
+                  className="btn btn-primary"
+                >
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm" id="carCssPort">
+            <div
+              className="card"
+              style={{
+                border: '2px solid rgb(234, 236, 237)',
+                boxShadow: '2px 2px 4px 4px rgb(234, 236, 237)',
+              }}
+            >
+              <span>
+                <img
+                  className="card-img-top"
+                  id="imgH"
+                  src="/img/investing-with-purpose.png"
+                  height={'110px'}
+                  alt="Card image cap"
+                />
+              </span>
+              <div className="card-body">
+                <h4
+                  style={{ color: 'rgb(138, 114, 8)' }}
+                  className="card-title"
+                >
+                  Investing With Purpose: How Mutual Funds Can Help
+                </h4>
+                <h3 style={{ color: 'black' }}>
+                  Aligning Your Investments With Life Goals
+                </h3>
+                <p className="card-text">
+                  Goal-based investing brings clarity and purpose to your
+                  financial journey. Mutual funds offer flexibility and
+                  professional...
+                </p>
+                <a
+                  href="/blog-38"
+                  target="_blank"
+                  id="btnHvn"
+                  style={{ fontSize: '15px', marginTop: '15px' }}
+                  className="btn btn-primary"
+                >
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row" style={{ marginTop: '25px' }} id="blkD">
+          <div className="col-sm">
+            <div
+              className="card"
+              style={{
+                border: '2px solid rgb(234, 236, 237)',
+                boxShadow: '2px 2px 4px 4px rgb(234, 236, 237)',
+              }}
+            >
+              <img
+                className="card-img-top"
+                id="imgH"
+                src="/img/art-of-inaction.png"
+                height={'110px'}
+                alt="The Art of Inaction in Investing"
+              />
+              <div className="card-body">
+                <h4
+                  style={{ color: 'rgb(138, 114, 8)' }}
+                  className="card-title"
+                >
+                  The Art of Inaction: Why Doing Nothing Can Be the Best
+                  Strategy
+                </h4>
+                <h3 style={{ color: 'black' }}>
+                  How Patience Outperforms Constant Trading in Mutual Funds
+                </h3>
+                <p style={{ marginTop: '10px' }} className="card-text">
+                  In a world full of financial noise urging constant action, the
+                  counterintuitive approach of "doing nothing" with your mutual
+                  fund investments...
+                </p>
+                <a
+                  href="/blog-39"
+                  target="_blank"
+                  id="btnHvn"
+                  style={{ fontSize: '15px', marginTop: '18px' }}
+                  className="btn btn-primary"
+                >
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm" id="carCssPort">
+            <div
+              className="card"
+              style={{
+                border: '2px solid rgb(234, 236, 237)',
+                boxShadow: '2px 2px 4px 4px rgb(234, 236, 237)',
+              }}
+            >
+              <img
+                className="card-img-top"
+                id="imgH"
+                src="/img/how-financial-experts.png"
+                height={'110px'}
+                alt="Financial Experts Guidance"
+              />
+              <div className="card-body">
+                <h4
+                  style={{ color: 'rgb(138, 114, 8)' }}
+                  className="card-title"
+                >
+                  How Financial Experts Can Maximize Your Mutual Fund Returns
+                </h4>
+                <h3 style={{ color: 'black' }}>
+                  The Strategic Advantages of Professional Guidance
+                </h3>
+                <p style={{ marginTop: '10px' }} className="card-text">
+                  While it's possible to invest on your own, working with
+                  financial experts offers strategic advantages that lead to
+                  better results...
+                </p>
+                <a
+                  href="/blog-40"
+                  target="_blank"
+                  id="btnHvn"
+                  style={{ fontSize: '15px', marginTop: '13px' }}
+                  className="btn btn-primary"
+                >
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
           <div className="col-sm">
             <div
               className="card"
@@ -77,6 +293,9 @@ const Blog = () => {
               </div>
             </div>
           </div>
+        </div>
+        {/* old */}
+        <div className="row" style={{ marginTop: '25px' }} id="blkD">
           <div className="col-sm" id="carCssPort">
             <div
               className="card"
@@ -156,6 +375,49 @@ const Blog = () => {
                   target="_blank"
                   id="btnHvn"
                   style={{ fontSize: '15px', marginTop: '15px' }}
+                  className="btn btn-primary"
+                >
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm">
+            <div
+              className="card"
+              style={{
+                border: '2px solid rgb(234, 236, 237)',
+                boxShadow: '2px 2px 4px 4px rgb(234, 236, 237)',
+              }}
+            >
+              <img
+                className="card-img-top"
+                id="imgH"
+                src="https://newapps.anchoredge.in/branding/Content/Blogimage/thumb/169823105425.10.2023BalancedAdvantageFund-01.jpg"
+                height={'110px'}
+                alt="Card image cap"
+              />
+              <div className="card-body">
+                <h4
+                  style={{ color: 'rgb(138, 114, 8)' }}
+                  className="card-title"
+                >
+                  Unpacking the Benefits of Balance Advantage Funds for
+                  Investors
+                </h4>
+                <h3 style={{ color: 'black' }}>
+                  What are Balance Advantage Funds?
+                </h3>
+                <p style={{ marginTop: '10px' }} className="card-text">
+                  Investing in mutual funds can be a great way to grow your
+                  wealth and achieve your financial goals. However, many
+                  investors....
+                </p>
+                <a
+                  href="/blog-19"
+                  target="_blank"
+                  id="btnHvn"
+                  style={{ fontSize: '15px', marginTop: '18px' }}
                   className="btn btn-primary"
                 >
                   Read More
@@ -1410,49 +1672,6 @@ const Blog = () => {
           </div>
         </div>
         <div className="row" style={{ marginTop: '25px' }} id="blkD">
-          <div className="col-sm">
-            <div
-              className="card"
-              style={{
-                border: '2px solid rgb(234, 236, 237)',
-                boxShadow: '2px 2px 4px 4px rgb(234, 236, 237)',
-              }}
-            >
-              <img
-                className="card-img-top"
-                id="imgH"
-                src="https://newapps.anchoredge.in/branding/Content/Blogimage/thumb/169823105425.10.2023BalancedAdvantageFund-01.jpg"
-                height={'110px'}
-                alt="Card image cap"
-              />
-              <div className="card-body">
-                <h4
-                  style={{ color: 'rgb(138, 114, 8)' }}
-                  className="card-title"
-                >
-                  Unpacking the Benefits of Balance Advantage Funds for
-                  Investors
-                </h4>
-                <h3 style={{ color: 'black' }}>
-                  What are Balance Advantage Funds?
-                </h3>
-                <p style={{ marginTop: '10px' }} className="card-text">
-                  Investing in mutual funds can be a great way to grow your
-                  wealth and achieve your financial goals. However, many
-                  investors....
-                </p>
-                <a
-                  href="/blog-19"
-                  target="_blank"
-                  id="btnHvn"
-                  style={{ fontSize: '15px', marginTop: '18px' }}
-                  className="btn btn-primary"
-                >
-                  Read More
-                </a>
-              </div>
-            </div>
-          </div>
           <div className="col-sm" id="carCssPort">
             <div
               className="card"
@@ -1496,6 +1715,7 @@ const Blog = () => {
               </div>
             </div>
           </div>
+          <div className="col-sm"></div>
           <div className="col-sm"></div>
         </div>
       </div>
